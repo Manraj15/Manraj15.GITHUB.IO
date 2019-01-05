@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url("https://fonts.googleapis.com/css?family=Thasadith");
 
 .bg{
 	background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(http://i.imgur.com/IrgAVF3.gif);
@@ -37,6 +38,10 @@
 	50% { border-color: white}
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body, html{
 	height: 100%;
 	margin: 0;
@@ -66,6 +71,31 @@ button:hover{
 	color: black;
 	border: 2px solid rgb(115, 153, 0);
 }
+
+.about-me{
+	margin-top: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-wrapper{
+	margin-left: 43%;
+	position: relative;
+}
+
+.par-wrapper{
+	text-align: center;
+	font-family: 'Thasadith', sans-serif;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 25px;
+}
+
+img{
+	border-radius: 50%;
+}
+
+
 
 
 
