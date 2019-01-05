@@ -74,6 +74,7 @@ button:hover{
 
 .about-me{
 	margin-top: 10px;
+	height: 100%;
 	align-items: center;
 	justify-content: center;
 }

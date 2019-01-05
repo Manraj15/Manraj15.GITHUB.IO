@@ -2,6 +2,34 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 		<title>Manraj Thind</title>
 	</head>
 	<body>
@@ -10,11 +38,11 @@
 				<h1>Hi, I'm Manraj Thind</h1>
 				<a href = "https://www.linkedin.com/in/manraj-thind-3a2562163/" target = "_blank"><button>LinkedIn</button></a>
 				<a href = "https://github.com/Manraj15" target = "_blank"><button>GitHub</button></a>
-				<button>About Me</button>
+				<a href = "#about"><button>About Me</button></a>
 			</div>
 		</div>
 
-		<div class = "about-me">
+		<div class = "about-me" id ="about">
 			<div class = "img-wrapper">
 				<img src = "https://nhl.bamcontent.com/images/photos/301406224/2048x1152/cut.jpg" height = "220" width = "200">
 			</div>
