@@ -22,5 +22,3 @@ $(document).ready(function(){
     } // End if
   });
 });
-<a href = "https://www.linkedin.com/in/manraj-thind-3a2562163/" target = "_blank"><button>LinkedIn</button></a>
-				<a href = "https://github.com/Manraj15" target = "_blank"><button>GitHub</button></a>
