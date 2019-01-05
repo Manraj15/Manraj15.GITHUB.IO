@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 @import url("https://fonts.googleapis.com/css?family=Thasadith");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
 .bg{
 	background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(http://i.imgur.com/IrgAVF3.gif);
@@ -94,6 +95,61 @@ button:hover{
 
 img{
 	border-radius: 50%;
+}
+
+.projects-button{
+	margin-top: 3.5em;
+	font-size: 1.5em;
+	margin-left: 0%;
+	margin-right: 2%;
+	font-family: 'Thasadith', sans-serif;
+	background-color: white;
+	color: rgb(115, 153, 0);
+	border: 2px solid rgb(115, 153, 0);
+}
+
+.projects-button:hover{
+	background-color: rgb(115, 153, 0);
+	border: 2px solid transparent;
+	color: white;
+
+}
+
+.projects-div{
+	height: 100%;
+	background-color: rgb(255, 3, 2);
+}
+
+.projects-div h1{
+	color: white;
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 5em;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.projects-desc-div{
+	padding-left: 5%;
+	padding-right: 10%;
+}
+
+.projects-desc-div h2{
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	
+	margin: 0;
+}
+
+.projects-desc-div p{
+	color: white;
+	font-family: 'Thasadith', sans-serif;
+}
+
+.git-link{
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	font-family: 'Thasadith', sans-serif;
 }
 
 
